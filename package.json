@@ -1,0 +1,41 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaShariy/booking.git"
+  },
+  "nyc": {
+    "extension": [
+      ".js"
+    ],
+    "reporter": [
+      "html",
+      "text-summary"
+    ],
+    "cache": true,
+    "all": true,
+    "exclude": [
+      "coverage",
+      ".mocharc.js",
+      "index.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaShariy/booking/issues"
+  },
+  "homepage": "https://github.com/MarinaShariy/booking#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  }
+}
