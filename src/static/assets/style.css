@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    cursor: url('middle.cur'), auto;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.base {
+    justify-content: center;
+    align-items: center;  
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(34, 155, 121);
+    border-left: 70px solid rgb(158, 246, 224);
+    border-right: 70px solid rgb(158, 246, 224);
+}
+
+.main-picture {
+    margin-top: 10px;
+    width: 30%;
+    height: 30%;
+    display:flex;
+   
+}
+
+.main-information {
+    margin: 10px;
+    background:rgb(158, 246, 224);
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.choice-of-rooms {
+    margin: 10%;
+    background:rgb(158, 246, 224);
+    border: 10px solid  rgb(158, 246, 224);
+    width: 90%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 10px;
+}
+
+.room {
+    color:slategray;
+    margin: 7px;
+    background: white;
+    width: 100%;
+    height: 10%;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;  
+}
+
+
+
+
