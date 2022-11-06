@@ -34,6 +34,8 @@
   },
   "homepage": "https://github.com/MarinaShariy/booking#readme",
   "devDependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
     "eslint": "^8.27.0",
     "mocha": "^10.1.0",
     "nyc": "^15.1.0"
